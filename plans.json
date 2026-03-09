@@ -1,0 +1,281 @@
+{
+  "destinations": [
+    {
+      "id": "varanasi",
+      "name": "Varanasi",
+      "state": "Uttar Pradesh",
+      "tagline": "The City of Light & Liberation",
+      "emoji": "🪔",
+      "plans": [
+        {
+          "id": "varanasi-starter",
+          "tier": "Starter",
+          "name": "Sacred Glow",
+          "tagline": "First steps on holy ground",
+          "price": 4999,
+          "duration": "3 Days · 2 Nights",
+          "rating": 4.2,
+          "featured": false,
+          "inclusions": [
+            "Ganga Aarti at Dashashwamedh Ghat",
+            "Kashi Vishwanath Temple visit",
+            "Old city walk with local guide",
+            "Budget hotel accommodation (2★)",
+            "Sarnath day trip"
+          ],
+          "exclusions": [
+            "Boat sunrise ride excluded",
+            "Meals not included"
+          ]
+        },
+        {
+          "id": "varanasi-explorer",
+          "tier": "Explorer",
+          "name": "River & Ritual",
+          "tagline": "Where the Ganges tells her stories",
+          "price": 8499,
+          "duration": "5 Days · 4 Nights",
+          "rating": 4.8,
+          "featured": true,
+          "inclusions": [
+            "Sunrise boat ride on the Ganges",
+            "Ganga Aarti — front-row experience",
+            "Kashi Vishwanath + Durga Temple",
+            "Heritage boutique stay (3★)",
+            "Sarnath + Ramnagar Fort",
+            "All breakfasts included",
+            "Silk weaving workshop"
+          ],
+          "exclusions": []
+        },
+        {
+          "id": "varanasi-signature",
+          "tier": "Signature",
+          "name": "The Kashi Immersion",
+          "tagline": "Live Varanasi like a scholar of souls",
+          "price": 15999,
+          "duration": "7 Days · 6 Nights",
+          "rating": 4.9,
+          "featured": false,
+          "inclusions": [
+            "Private sunrise boat + photography",
+            "Personal pundit-led temple rituals",
+            "All 84 ghats heritage walk",
+            "Luxury heritage haveli (4★)",
+            "Classical music evening (Banarasi)",
+            "All meals + cooking class",
+            "Private AC car + airport transfer"
+          ],
+          "exclusions": []
+        }
+      ]
+    },
+    {
+      "id": "rajasthan",
+      "name": "Rajasthan",
+      "state": "Rajasthan",
+      "tagline": "The Land of Kings & Colours",
+      "emoji": "🏯",
+      "plans": [
+        {
+          "id": "rajasthan-starter",
+          "tier": "Starter",
+          "name": "Desert Dip",
+          "tagline": "A quick taste of the royal life",
+          "price": 5999,
+          "duration": "3 Days · 2 Nights",
+          "rating": 4.1,
+          "featured": false,
+          "inclusions": [
+            "Jaipur city tour — Amber Fort, Hawa Mahal",
+            "Local guide with jeep ride",
+            "Budget hotel stay (2★)",
+            "Bazaar walk in Pink City"
+          ],
+          "exclusions": [
+            "Camel safari not included",
+            "Meals not included",
+            "Jodhpur / Jaisalmer not covered"
+          ]
+        },
+        {
+          "id": "rajasthan-explorer",
+          "tier": "Explorer",
+          "name": "Royal Circuit",
+          "tagline": "Forts, deserts and royal feasts",
+          "price": 11999,
+          "duration": "6 Days · 5 Nights",
+          "rating": 4.7,
+          "featured": true,
+          "inclusions": [
+            "Jaipur + Jodhpur + Jaisalmer",
+            "Camel safari at Sam Sand Dunes",
+            "Heritage hotel stay (3★)",
+            "Rajasthani cultural dinner show",
+            "All breakfasts + 2 dinners",
+            "AC tempo traveller transfers"
+          ],
+          "exclusions": []
+        },
+        {
+          "id": "rajasthan-signature",
+          "tier": "Signature",
+          "name": "Maharaja Experience",
+          "tagline": "Live like royalty across Rajputana",
+          "price": 24999,
+          "duration": "9 Days · 8 Nights",
+          "rating": 5.0,
+          "featured": false,
+          "inclusions": [
+            "Jaipur, Jodhpur, Jaisalmer, Udaipur",
+            "Palace hotel stays (4★ heritage)",
+            "Private camel + jeep safari",
+            "Royal Rajputana dinner with folk dance",
+            "All meals included",
+            "Private AC car throughout",
+            "Sunrise hot air balloon — Jaipur"
+          ],
+          "exclusions": []
+        }
+      ]
+    },
+    {
+      "id": "kerala",
+      "name": "Kerala",
+      "state": "Kerala",
+      "tagline": "God's Own Country",
+      "emoji": "🌴",
+      "plans": [
+        {
+          "id": "kerala-starter",
+          "tier": "Starter",
+          "name": "Backwater Glimpse",
+          "tagline": "Dip your toes in paradise",
+          "price": 5499,
+          "duration": "3 Days · 2 Nights",
+          "rating": 4.3,
+          "featured": false,
+          "inclusions": [
+            "Alleppey houseboat day cruise",
+            "Coconut Grove resort stay (2★)",
+            "Kathakali dance show",
+            "Local Kerala breakfast"
+          ],
+          "exclusions": [
+            "Overnight houseboat not included",
+            "Munnar not covered",
+            "Meals partially included"
+          ]
+        },
+        {
+          "id": "kerala-explorer",
+          "tier": "Explorer",
+          "name": "Malabar Magic",
+          "tagline": "Backwaters, spices and the sea",
+          "price": 10499,
+          "duration": "6 Days · 5 Nights",
+          "rating": 4.6,
+          "featured": true,
+          "inclusions": [
+            "Overnight houseboat on Alleppey backwaters",
+            "Munnar tea plantation tour",
+            "Spice garden walk — Thekkady",
+            "Beach day — Kovalam",
+            "Ayurvedic spa session",
+            "All breakfasts + 3 dinners"
+          ],
+          "exclusions": []
+        },
+        {
+          "id": "kerala-signature",
+          "tier": "Signature",
+          "name": "The God's Own Odyssey",
+          "tagline": "Every inch of Kerala's soul",
+          "price": 19999,
+          "duration": "9 Days · 8 Nights",
+          "rating": 4.9,
+          "featured": false,
+          "inclusions": [
+            "Luxury houseboat 2 nights",
+            "Munnar + Wayanad + Thekkady + Kovalam",
+            "Wildlife safari — Periyar",
+            "Full Ayurveda wellness day",
+            "5★ resort stay — Fort Kochi",
+            "All meals throughout",
+            "Private driver + guide"
+          ],
+          "exclusions": []
+        }
+      ]
+    },
+    {
+      "id": "shimla",
+      "name": "Shimla",
+      "state": "Himachal Pradesh",
+      "tagline": "Queen of the Hills",
+      "emoji": "🏔️",
+      "plans": [
+        {
+          "id": "shimla-starter",
+          "tier": "Starter",
+          "name": "Hill Escape",
+          "tagline": "Breathe the mountain air",
+          "price": 3999,
+          "duration": "3 Days · 2 Nights",
+          "rating": 4.0,
+          "featured": false,
+          "inclusions": [
+            "Mall Road & Ridge walk",
+            "Jakhu Temple trek",
+            "Budget hotel stay (2★)",
+            "Toy train experience"
+          ],
+          "exclusions": [
+            "Kufri not included",
+            "Snow activities not included",
+            "Meals not included"
+          ]
+        },
+        {
+          "id": "shimla-explorer",
+          "tier": "Explorer",
+          "name": "Mountain Wanderer",
+          "tagline": "Hills, snow and colonial charm",
+          "price": 7999,
+          "duration": "5 Days · 4 Nights",
+          "rating": 4.5,
+          "featured": true,
+          "inclusions": [
+            "Shimla + Kufri + Naldehra",
+            "Snow activity package — Kufri",
+            "Heritage hotel on Mall Road (3★)",
+            "Toy train — Kalka to Shimla",
+            "All breakfasts included",
+            "Local sightseeing cab"
+          ],
+          "exclusions": []
+        },
+        {
+          "id": "shimla-signature",
+          "tier": "Signature",
+          "name": "The Himalayan Crown",
+          "tagline": "The grandest hills experience",
+          "price": 13999,
+          "duration": "7 Days · 6 Nights",
+          "rating": 4.8,
+          "featured": false,
+          "inclusions": [
+            "Shimla + Kufri + Chail + Sarahan",
+            "Luxury resort stay (4★)",
+            "Paragliding at Kufri",
+            "Sunrise trek to Chail Palace",
+            "All meals included",
+            "Private cab throughout",
+            "Welcome hamper + bonfire night"
+          ],
+          "exclusions": []
+        }
+      ]
+    }
+  ]
+}

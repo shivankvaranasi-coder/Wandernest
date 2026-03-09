@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wandernest — Tour Packages</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="packages.css" />
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <nav>
+        <a href="index.html" class="logo">Wander<span>nest</span></a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="packages.html" class="active">Packages</a></li>
+            <li><a href="booking.html">Book Now</a></li>
+            <li><a href="login.html" class="nav-cta">Login</a></li>
+        </ul>
+    </nav>
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+        <div class="hero-content">
+            <div class="eyebrow">All Destinations</div>
+            <h1>Find Your Perfect <em>Journey</em></h1>
+            <p class="hero-sub">Handpicked packages across India's most soulful destinations. Filter by budget, duration
+                or vibe.</p>
+        </div>
+
+        <!-- FILTER BAR -->
+        <div class="filter-bar">
+            <div class="filter-group">
+                <label>Destination</label>
+                <select id="filterDest">
+                    <option value="all">All Destinations</option>
+                    <option value="varanasi">Varanasi</option>
+                    <option value="rajasthan">Rajasthan</option>
+                    <option value="kerala">Kerala</option>
+                    <option value="shimla">Shimla</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>Budget</label>
+                <select id="filterBudget">
+                    <option value="all">Any Budget</option>
+                    <option value="low">Under ₹6,000</option>
+                    <option value="mid">₹6,000 – ₹12,000</option>
+                    <option value="high">Above ₹12,000</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>Duration</label>
+                <select id="filterDuration">
+                    <option value="all">Any Duration</option>
+                    <option value="short">3–4 Days</option>
+                    <option value="medium">5–6 Days</option>
+                    <option value="long">7+ Days</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>Tier</label>
+                <select id="filterTier">
+                    <option value="all">All Tiers</option>
+                    <option value="Starter">Starter</option>
+                    <option value="Explorer">Explorer</option>
+                    <option value="Signature">Signature</option>
+                </select>
+            </div>
+            <button class="filter-btn" id="applyFilter">Search Packages</button>
+        </div>
+    </section>
+
+    <!-- RESULTS COUNT -->
+    <div class="results-bar">
+        <span id="resultsCount">Showing 12 packages</span>
+        <div class="sort-wrap">
+            <label>Sort by</label>
+            <select id="sortBy">
+                <option value="default">Featured</option>
+                <option value="price-asc">Price: Low to High</option>
+                <option value="price-desc">Price: High to Low</option>
+                <option value="duration-asc">Duration: Shortest</option>
+                <option value="rating">Highest Rated</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- PACKAGES GRID -->
+    <section class="packages-section">
+        <div class="packages-grid" id="packagesGrid">
+            <!-- Injected by packages.js -->
+        </div>
+        <div class="no-results" id="noResults" style="display:none">
+            <div class="no-results-icon">🔍</div>
+            <h3>No packages found</h3>
+            <p>Try adjusting your filters to find the perfect trip.</p>
+            <button onclick="resetFilters()">Clear Filters</button>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-inner">
+            <div class="logo">Wander<span>nest</span></div>
+            <p>© 2026 Wandernest. Made with ❤️ for every wanderer.</p>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="packages.html">Packages</a>
+                <a href="booking.html">Book</a>
+                <a href="login.html">Login</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="packages.js"></script>
+</body>
+
+</html>
