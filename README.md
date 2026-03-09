@@ -19,8 +19,8 @@ Technologies Used
 
 Frontend: HTML, CSS, JavaScript
 
-Backend: Node.js / Java / Python (depending on your implementation)
+Backend: Node.js ,Express Js
 
-Database: MySQL / MongoDB
+Database:MongoDB
 
 Version Control: Git & GitHub
